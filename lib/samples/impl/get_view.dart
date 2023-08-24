@@ -33,12 +33,7 @@ class $_viewName extends $_controllerName {
         title: const Text('$_viewName'),
         centerTitle: true,
       ),
-      body:const Center(
-        child: Text(
-          '$_viewName is working', 
-          style: TextStyle(fontSize:20),
-        ),
-      ),
+      body:const Center(),
     );
   }
 }

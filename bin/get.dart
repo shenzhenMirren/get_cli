@@ -2,6 +2,10 @@ import 'package:get_cli/common/utils/logger/log_utils.dart';
 import 'package:get_cli/exception_handler/exception_handler.dart';
 import 'package:get_cli/functions/version/version_update.dart';
 import 'package:get_cli/get_cli.dart';
+// test command
+// void main(List<String> args) {
+//   main("get", "create", "page:test_test");
+// }
 
 Future<void> main(List<String> arguments) async {
   var time = Stopwatch();

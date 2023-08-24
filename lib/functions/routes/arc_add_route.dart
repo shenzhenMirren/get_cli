@@ -25,7 +25,7 @@ void arcAddRoute(String nameRoute) {
   }
 
   var line =
-      'static const ${nameRoute.snakeCase.toUpperCase()} = \'/${nameRoute.snakeCase.toLowerCase().replaceAll('_', '-')}\';';
+      'static const ${nameRoute.camelCase} = \'/${nameRoute.snakeCase.toLowerCase().replaceAll('_', '-')}\';';
   if (lines.contains(line)) {
     return;
   }
