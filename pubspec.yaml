@@ -11,7 +11,7 @@ dependencies:
   ansicolor: ">=2.0.1 <3.0.0"
   collection: ">=1.15.0 <2.0.0"
   dart_style: ">=2.0.1 <3.0.0"
-  dcli: ^3.0.2
+  dcli: ^4.0.5
   get: ^5.0.0-release-candidate-4
   http: ">=0.13.4 <2.0.0"
   intl: ">=0.17.0 <1.0.0"
@@ -22,7 +22,9 @@ dependencies:
   recase: ">=4.0.0 <5.0.0"
   version: ">=2.0.0 <4.0.0"
   yaml: ">=3.1.0 <4.0.0"
-
+dependency_overrides:
+  meta: ^1.15.0  # 与 runtime_native_semaphores 的要求匹配
+  runtime_native_semaphores: ^1.0.0-beta.6  # 与 dcli 的要求匹配
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.5.0
