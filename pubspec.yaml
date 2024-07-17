@@ -23,6 +23,7 @@ dependencies:
   version: ">=2.0.0 <4.0.0"
   yaml: ">=3.1.0 <4.0.0"
 dependency_overrides:
+  flutter_web_plugins: any
   meta: ^1.15.0  # 与 runtime_native_semaphores 的要求匹配
   runtime_native_semaphores: ^1.0.0-beta.6  # 与 dcli 的要求匹配
 dev_dependencies:
